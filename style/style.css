@@ -73,6 +73,8 @@ body {
 
     /* Distribui o espaço restante entre os itens horizontalmente */
     justify-content: space-between;
+
+    margin-bottom: 15px;
 }
 
 /* Estilos para elementos com a classe .apresentacao-conteudo */
@@ -422,6 +424,7 @@ body {
     text-transform: uppercase;
     position: relative;
     overflow: hidden;
+    margin-bottom: 15px;
 }
 
 .botao5::before {
@@ -555,7 +558,12 @@ body {
     transform: scale(1.1);
 }
 
-.rodape{
+/* Espaçamento entre o conteúdo principal (main) e o rodapé (footer) */
+.rodape {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     color: white;
     background-color: #800000;
     display: flex;
@@ -568,8 +576,10 @@ body {
     padding: 20px;
 }
 
+/* Estilo de link no rodapé */
 .rodape a:hover {
     color: #FFA500;
 }
+
 
 
